@@ -1,4 +1,3 @@
-from pprint import pprint
 def get_first_row(data):   
     """
     Get the first row from a CSV file.

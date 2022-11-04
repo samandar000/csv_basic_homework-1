@@ -12,6 +12,7 @@ def get_first_column(data):
         a = i.split(',')
         k.append(a[0])
     return k
+
 data = open('data.csv').read()
 
     

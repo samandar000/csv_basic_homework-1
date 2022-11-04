@@ -13,8 +13,9 @@ def find_number_of_rows(data):
         l.append(a)
        
     return len(data)-1
+
 data = open('data.csv').read()
 
-print(find_number_of_rows(data))
+
 
 # Read the csv file

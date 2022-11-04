@@ -13,6 +13,7 @@ def get_column_names(data):
         a = i.split(',')
         k.append(a)
     return (k[0])
+
 data = open('data.csv').read()
 
     
