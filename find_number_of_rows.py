@@ -7,10 +7,7 @@ def find_number_of_rows(data):
         int: Number of rows.
     """
     data = data.split('\n')
-    l= []
-    for i in data:
-        a = i.split(',')
-        l.append(a)
+    
        
     return len(data)-1
 

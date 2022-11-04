@@ -7,14 +7,12 @@ def get_first_row(data):
         list: First row.
     """
     data = data.split('\n')
-    k = []
-    for i in data:
-        a = i.split(',')
-        k.append(a)
-    return (k[1])
+    
+    k = data[1].split(',')
+    
+    return (k)
 data = open('data.csv').read()
 
-   
    
 
 # Read the csv file
