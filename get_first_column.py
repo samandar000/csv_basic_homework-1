@@ -7,13 +7,15 @@ def get_first_column(data):
         list: First column.
     """
     data = data.split('\n')
-    k = []
+    k= []
     for i in data:
         a = i.split(',')
         k.append(a[0])
-    return k
-
+       
+    return (k)
 data = open('data.csv').read()
+
+
 
     
 # Read the csv file
